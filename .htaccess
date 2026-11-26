@@ -1,0 +1,5 @@
+# Folder gambar produk: tolak eksekusi skrip, hanya izinkan gambar
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
